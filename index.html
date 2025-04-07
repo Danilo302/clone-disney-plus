@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Disney+</title>
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -41,7 +58,8 @@
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">Em breve</button>
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">Em
+                breve</button>
             <button data-tab-button="populares" class="shows__tabs__button">Mais populares</button>
             <button data-tab-button="star_plus" class="shows__tabs__button">Mais no star+</button>
         </nav>
@@ -143,7 +161,9 @@
         <div class="image-text-section__text_container">
             <h2 class="title">Assista do seu jeito</h2>
             <p class="text--big">
-                Aprovelte a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
+                Aprovelte a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de
+                títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4
+                telas ao mesmo tempo.
             </p>
         </div>
     </section>
@@ -152,7 +172,8 @@
         <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
             <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem
+                internet.
             </p>
         </div>
     </section>
@@ -215,7 +236,8 @@
                     <ul>
                         <li>
                             <p>
-                                <span> Estreias de filmes, séries originais e clássicos da Disney, Pixar, Marvel, Star Wars, National Geographic e Star.</span>
+                                <span> Estreias de filmes, séries originais e clássicos da Disney, Pixar, Marvel, Star
+                                    Wars, National Geographic e Star.</span>
                             </p>
                         </li>
                         <li>
@@ -225,12 +247,14 @@
                         </li>
                         <li>
                             <p>
-                                <span> Até quatro telas ao mesmo tempo com o Disney+ Premium, e até duas com o Disney+ Padrão.</span>
+                                <span> Até quatro telas ao mesmo tempo com o Disney+ Premium, e até duas com o Disney+
+                                    Padrão.</span>
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span> Downloads, criação de perfis e controle parental para personalizar a experiência por idade, de acordo com o seu plano.
+                                <span> Downloads, criação de perfis e controle parental para personalizar a experiência
+                                    por idade, de acordo com o seu plano.
                                 </span>
                             </p>
                         </li>
@@ -243,7 +267,9 @@
                 </div>
                 <div class="faq__questions__item__answer text--big">
                     <p>
-                        Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple, Mercado Livre e provedores locais de TV, telefonia e internet.</p>
+                        Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas
+                        parceiras como Google Play Store, App Store da Apple, Mercado Livre e provedores locais de TV,
+                        telefonia e internet.</p>
                 </div>
             </li>
             <li class="faq__questions__item">
@@ -251,12 +277,62 @@
                     Onde posso assistir ao Disney+?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    <p>O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames, decodificadores e smart TVs. Confira a lista completa de dispositivos compatíveis na Central de Ajuda</p>
+                    <p>O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames,
+                        decodificadores e smart TVs. Confira a lista completa de dispositivos compatíveis na Central de
+                        Ajuda</p>
                 </div>
             </li>
         </ul>
     </section>
 
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Termos e condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a class="text--small" href="#">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura
+                paga. Conteúdo sujeito a disponibilidade
+            </p>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é
+                comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas,
+                12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>
+
     <script src="./src/main.js"></script>
 </body>
+
 </html>
